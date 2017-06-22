@@ -16,6 +16,7 @@ function Calculate(){
         var ar=CalculateArea(radius.value);
         //change the innerhtml of area div with the result
          document.getElementById("area").innerHTML= "The Area<span style='font-style:oblique;'>(two decimal)</span> Of Circle is : <span style='color:green;'>"+ar.toFixed(2)+"</span> m<sup>2</sup>";//toFixed is used to restrict the no of digits after decimal point
+         radius.style.backgroundColor= "white";
     }
 }
 
